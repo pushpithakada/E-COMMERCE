@@ -1,0 +1,298 @@
+/* ===============================
+   Large Devices (1200px and below)
+==================================*/
+
+@media (max-width:1200px){
+
+    .carousel-caption h1{
+        font-size:45px;
+    }
+
+}
+
+/* ===============================
+   Tablets
+==================================*/
+
+@media (max-width:992px){
+
+    .carousel-item img{
+        height:450px;
+    }
+
+    .carousel-caption{
+        bottom:25%;
+    }
+
+    .carousel-caption h1{
+        font-size:38px;
+    }
+
+    .carousel-caption p{
+        font-size:18px;
+    }
+
+    .category-box{
+        margin-bottom:20px;
+    }
+
+    .feature-icon{
+        font-size:45px;
+    }
+
+}
+
+/* ===============================
+   Mobile Devices
+==================================*/
+
+@media (max-width:768px){
+
+    .carousel-item img{
+        height:350px;
+    }
+
+    .carousel-caption{
+        bottom:18%;
+    }
+
+    .carousel-caption h1{
+        font-size:28px;
+    }
+
+    .carousel-caption p{
+        font-size:15px;
+    }
+
+    .carousel-caption .btn{
+        padding:8px 18px;
+        font-size:14px;
+    }
+
+    .navbar-brand{
+        font-size:24px;
+    }
+
+    section h2{
+        font-size:28px;
+    }
+
+    .category-box{
+        padding:30px;
+    }
+
+    .category-box i{
+        font-size:45px;
+    }
+
+    .feature-icon{
+        font-size:40px;
+    }
+
+    .cart-item img{
+        width:100px;
+        height:100px;
+    }
+
+    footer{
+        text-align:center;
+    }
+
+    footer .col-md-4{
+        margin-bottom:25px;
+    }
+
+}
+
+/* ===============================
+   Small Mobiles
+==================================*/
+
+@media (max-width:576px){
+
+    .carousel-item img{
+        height:260px;
+    }
+
+    .carousel-caption{
+        bottom:10%;
+    }
+
+    .carousel-caption h1{
+        font-size:22px;
+    }
+
+    .carousel-caption p{
+        display:none;
+    }
+
+    .carousel-caption .btn{
+        font-size:13px;
+        padding:7px 15px;
+    }
+
+    .product-card img{
+        height:200px;
+    }
+
+    .product-info h5{
+        font-size:16px;
+        height:auto;
+    }
+
+    .price{
+        font-size:20px;
+    }
+
+    .category-box{
+        padding:25px;
+    }
+
+    .category-box h4{
+        font-size:18px;
+    }
+
+    .feature-icon{
+        font-size:35px;
+    }
+
+    .newsletter h2{
+        font-size:24px;
+    }
+
+    .page-banner{
+        padding:50px 0;
+    }
+
+    .page-banner h1{
+        font-size:30px;
+    }
+
+    #scrollBtn{
+
+        width:45px;
+
+        height:45px;
+
+        right:15px;
+
+        bottom:15px;
+
+    }
+
+}
+
+/*==========================================
+        CONTACT PAGE RESPONSIVE
+==========================================*/
+
+/* Large Tablets */
+
+@media (max-width:992px){
+
+    .contact-box{
+        margin-bottom:25px;
+        padding:30px;
+    }
+
+    .page-banner{
+        padding:70px 0;
+    }
+
+    .page-banner h1{
+        font-size:40px;
+    }
+
+    iframe{
+        height:380px;
+    }
+
+}
+
+/* Tablets */
+
+@media (max-width:768px){
+
+    .contact-box{
+        padding:25px;
+    }
+
+    .contact-item{
+        gap:15px;
+    }
+
+    .contact-icon{
+        width:50px;
+        height:50px;
+        font-size:20px;
+    }
+
+    .contact-item h5{
+        font-size:18px;
+    }
+
+    .page-banner{
+        padding:60px 0;
+    }
+
+    .page-banner h1{
+        font-size:34px;
+    }
+
+    .page-banner p{
+        font-size:16px;
+    }
+
+    iframe{
+        height:320px;
+    }
+
+    .contact-box button{
+        width:100%;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:576px){
+
+    .page-banner{
+        padding:45px 0;
+    }
+
+    .page-banner h1{
+        font-size:28px;
+    }
+
+    .page-banner p{
+        font-size:15px;
+    }
+
+    .contact-box{
+        padding:20px;
+    }
+
+    .contact-item{
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+    }
+
+    .contact-icon{
+        margin-bottom:10px;
+    }
+
+    .contact-box h3{
+        text-align:center;
+    }
+
+    iframe{
+        height:260px;
+    }
+
+    .contact-box .form-control{
+        font-size:15px;
+    }
+
+}
